@@ -16,11 +16,11 @@ IF-Dataset</br>
 -->video1_dir(dir)</br>
 -->video2_dir(dir)</br>
 ## How to use
-Firstly, download dataset.rar form Baidu Cloud.  
-Download URL：https://pan.baidu.com/s/1BUANlG6zIU6lnMTV4GWQLQ   
-Download Code：td2e 
+Firstly, download dataset.zip form Baidu Cloud.  
+URL: https://pan.baidu.com/s/1CCUryYf5pD1twUKHdhNNXw 
+Code: 2g2q
 
-Then, decompress the dataset.rar and move the IF_train.csv and IF_test files into the dataset directory. The directory structure is supposed to be like this:
+Then, decompress the dataset.zip and move the IF_train.csv and IF_test files into the dataset directory. The directory structure is supposed to be like this:
 
 dataset(dir)</br>
 -->IF_Dataset(dir)</br>
