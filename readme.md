@@ -1,10 +1,14 @@
-## Basic Description
-To our best knowledge, IF-Dataset is the first dataset of irrelevant faces recognition in Chinese short-form video. 
-IF-Datast includes 43965 images of irrelevant faces and 89924 images of relevant faces, with 133889 face images in total. 
-ID-Dataset contains the face image as well as five statistical features of each face. The statistical features are described as follows:  
-![avatar](features_description.PNG)
+# IF-Dataset
+IF-Dataset refers to "Irrelevant Face Dataset".
 
-## Structure of the test directory
+## Basic Information
+To our best knowledge, IF-Dataset is the first dataset for irrelevant faces recognition in Chinese short-form video, which includes 43965 images of irrelevant faces and 89924 images of relevant faces, with 133889 face images in total. 
+
+### Desceiption of features
+IF-Dataset contains the face image as well as five statistical features of each face. The statistical features are described as follows:  
+![features_description](imgs/features_description.png)
+
+### Structure of the project
 IF-Dataset</br>
 -->video0_dir(dir)</br> 
 ------>0(dir)</br>
@@ -15,16 +19,25 @@ IF-Dataset</br>
 ------>2(dir)</br> 
 -->video1_dir(dir)</br>
 -->video2_dir(dir)</br>
+
+### samples of data
+
+
 ## How to use
-Firstly, download dataset.zip form Baidu Cloud.  
-URL: https://pan.baidu.com/s/1CCUryYf5pD1twUKHdhNNXw 
-Code: 2g2q
+### Access to data
+IF-Dataset can be downloaded from the Baidu Cloud and the Google Could.
 
-Then, decompress the dataset.zip and move the IF_train.csv and IF_test files into the dataset directory. The directory structure is supposed to be like this:
+Download from Baidu Cloud:  
+URL: https://pan.baidu.com/s/1CCUryYf5pD1twUKHdhNNXw  
+Code: 2g2q 
 
+Download from Google Cloud: 
+
+### Guidences for use
+1. Download the dataset.zip file.
+2. Decompress the dataset.zip and move the dataset directory into this project. Make surethe directory structure looks like this:
 dataset(dir)</br>
 -->IF_Dataset(dir)</br>
 -->IF_train.csv(file)</br>
 -->IF_test.csv(file)</br>
-
-Finally, you can use the IF-Dataset by accessing the structure.csv.
+3. Use the IF-Dataset through reading those csv files.
