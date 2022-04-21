@@ -21,6 +21,13 @@ IF-Dataset</br>
 -->video2_dir(dir)</br>
 
 ### samples of data
+Note that all samples are resized to the [224, 224] in order to output visual results.
+
++ Samples of relevant faces
+![relevant faces](imgs/relevant_sample.jpg)
+
++ Samples of irrelevant faces
+![irrelevant faces](imgs/irrelevant_sample.jpg)
 
 
 ## How to use
@@ -32,6 +39,7 @@ URL: https://pan.baidu.com/s/1CCUryYf5pD1twUKHdhNNXw
 Code: 2g2q 
 
 Download from Google Cloud: 
+https://drive.google.com/file/d/1OYzIk4xeireMiDUyZXdIeZV2rRsbvC2F/view?usp=sharing
 
 ### Guidences for use
 1. Download the dataset.zip file.
@@ -40,4 +48,4 @@ dataset(dir)</br>
 -->IF_Dataset(dir)</br>
 -->IF_train.csv(file)</br>
 -->IF_test.csv(file)</br>
-3. Use the IF-Dataset through reading those csv files.
+1. Use the IF-Dataset through reading csv files.
