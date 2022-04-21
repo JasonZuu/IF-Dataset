@@ -21,13 +21,15 @@ IF-Dataset</br>
 -->video2_dir(dir)</br>
 
 ### samples of data
-Note that all samples are resized to the [224, 224] in order to output visual results.
-
 + Samples of relevant faces
 ![relevant faces](imgs/relevant_sample.jpg)
 
 + Samples of irrelevant faces
 ![irrelevant faces](imgs/irrelevant_sample.jpg)
+
+Note that all samples are resized to the [224, 224] in order to output visual results. 
+
+As most of the irrelevant samples are smaller than this shape, their visual results are lower in quality than the relevants.
 
 
 ## How to use
@@ -38,7 +40,7 @@ Download from Baidu Cloud:
 URL: https://pan.baidu.com/s/1CCUryYf5pD1twUKHdhNNXw  
 Code: 2g2q 
 
-Download from Google Cloud: 
+Download from Google Cloud:  
 https://drive.google.com/file/d/1OYzIk4xeireMiDUyZXdIeZV2rRsbvC2F/view?usp=sharing
 
 ### Guidences for use
