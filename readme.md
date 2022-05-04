@@ -21,13 +21,13 @@ IF-Dataset</br>
 -->video2_dir(dir)</br>
 
 ## Samples of data
-### What are relevant faces and irrelevant faces
+### Relevant faces and irrelevant faces
 ![frames of short-form video](imgs/frames.png)  
 In the above frames, relevant faces are those surrounded by green boxes while irrelevant faces are those surrounded by red boxes.  
 
 In the IF-Dataset, faces are extracted from those frames of short-form videos and labeled according to our rules.
 
-### Samples of faces
+### Samples
 + Samples of relevant faces
 ![relevant faces](imgs/relevant_sample.jpg)
 
