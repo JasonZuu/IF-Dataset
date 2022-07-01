@@ -1,6 +1,8 @@
 # IF-Dataset
 IF-Dataset refers to "Irrelevant Face Dataset".
 
+This is the dataset used in the paper <a  href ="https://www.sciencedirect.com/science/article/abs/pii/S0925231222008013">Recognizing irrelevant faces in short-form videos based on feature fusion and active learning</a>
+
 ## Basic Information
 To our best knowledge, IF-Dataset is the first dataset for irrelevant faces recognition in Chinese short-form video, which includes 43965 images of irrelevant faces and 89924 images of relevant faces, with 133889 face images in total. 
 
@@ -55,4 +57,4 @@ dataset(dir)</br>
 -->IF_Dataset(dir)</br>
 -->IF_train.csv(file)</br>
 -->IF_test.csv(file)</br>
-1. Use the IF-Dataset through reading csv files.
+3. Use the IF-Dataset through reading csv files.
