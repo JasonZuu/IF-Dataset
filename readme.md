@@ -11,13 +11,13 @@ IF-Dataset contains the face image as well as five statistical features of each 
 ![features_description](imgs/features_description.png)
 
 ### Description of files
-IF_train.csv: Containing features and image access of the IF-Dataset's training set.
-IF_test.csv: Containing features and image access of the IF-Dataset's testing set.
-active100.csv: Containing data used for active learning.
-tiktok_test.csv: Containing data used for evaluating the generalization performance of the model.
+IF_train.csv: Containing features and image access of the IF-Dataset's training set.</br>
+IF_test.csv: Containing features and image access of the IF-Dataset's testing set.</br>
+active100.csv: Containing data used for active learning.</br>
+tiktok.csv: Containing data used for evaluating the generalization performance of the model.</br>
 
 ### Structure of the project
-dataset
+dataset</br>
 -->IF-Dataset</br>
 ---->video0_dir(dir)</br> 
 ------>0(dir)</br>
@@ -52,17 +52,22 @@ Note that all samples are resized to the [224, 224] in order to output visual re
 IF-Dataset can be downloaded from the Baidu Cloud and the Google Could.
 
 Download from Baidu Cloud:  
-URL: https://pan.baidu.com/s/1CCUryYf5pD1twUKHdhNNXw  
-Code: 2g2q 
+URL: https://pan.baidu.com/s/19lwR19v2cafyTsVu2wTPmg     
+Password: i4in  
 
 Download from Google Cloud:  
-https://drive.google.com/file/d/1OYzIk4xeireMiDUyZXdIeZV2rRsbvC2F/view?usp=sharing
+https://drive.google.com/file/d/14MjWdUUc79jyD_iRVQV5RMkDpZbLVfMF/view?usp=sharing
 
 ### Guidences for use
 1. Download the dataset.zip file.
 2. Decompress the dataset.zip and move the dataset directory into this project. Make surethe directory structure looks like this:
 dataset(dir)</br>
 -->IF_Dataset(dir)</br>
--->IF_train.csv(file)</br>
--->IF_test.csv(file)</br>
+-->active_100(dir)</br>
+-->tiktok(dir)</br>
+IF_train.csv(file)</br>
+IF_test.csv(file)</br>
+tiktok.csv(file)</br>
+active100.csv(file)</br>
+
 3. Use the IF-Dataset through reading csv files.

@@ -4,6 +4,9 @@ Code used for get samples of data
 
 import numpy as np
 import cv2
+import sys
+
+sys.path.append("../")
 
 def _get_row(imgs)->np.ndarray:
     for i_img in range(len(imgs)):
