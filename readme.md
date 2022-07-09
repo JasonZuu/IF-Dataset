@@ -6,21 +6,29 @@ This is the dataset used in the paper <a  href ="https://www.sciencedirect.com/s
 ## Basic Information
 To our best knowledge, IF-Dataset is the first dataset for irrelevant faces recognition in Chinese short-form video, which includes 43965 images of irrelevant faces and 89924 images of relevant faces, with 133889 face images in total. 
 
-### Desceiption of features
+### Description of features
 IF-Dataset contains the face image as well as five statistical features of each face. The statistical features are described as follows:  
 ![features_description](imgs/features_description.png)
 
+### Description of files
+IF_train.csv: Containing features and image access of the IF-Dataset's training set.
+IF_test.csv: Containing features and image access of the IF-Dataset's testing set.
+active100.csv: Containing data used for active learning.
+tiktok_test.csv: Containing data used for evaluating the generalization performance of the model.
+
 ### Structure of the project
-IF-Dataset</br>
--->video0_dir(dir)</br> 
+dataset
+-->IF-Dataset</br>
+---->video0_dir(dir)</br> 
 ------>0(dir)</br>
----------->img0(file)</br>
----------->img1(file)</br>
----------->img2(file)</br>
+--------->img0(file)</br>
+--------->img1(file)</br>
+--------->img2(file)</br>
 ------>1(dir)</br> 
 ------>2(dir)</br> 
--->video1_dir(dir)</br>
--->video2_dir(dir)</br>
+---->video1_dir(dir)</br>
+-->tiktok(dir)</br>
+-->active_100(dir)</br>
 
 ## Samples of data
 ### Relevant faces and irrelevant faces
