@@ -3,7 +3,7 @@ IF-Dataset refers to "Irrelevant Face Dataset".
 
 This is the dataset used in the paper <a  href ="https://www.sciencedirect.com/science/article/abs/pii/S0925231222008013">Recognizing irrelevant faces in short-form videos based on feature fusion and active learning</a>
 
-The codes for the MMFNet is available at <a href="https://github.com/JasonZuu/MMFNet-2022"> MMFNet </a>
+The codes for the MMFNet is available at <a href="https://github.com/JasonZuu/MMFNet-2022"> MMFNet-2022 </a>
 
 ## Basic Information
 To our best knowledge, IF-Dataset is the first dataset for irrelevant faces recognition in Chinese short-form video, which includes 43965 images of irrelevant faces and 89924 images of relevant faces, with 133889 face images in total. 
